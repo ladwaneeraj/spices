@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shree Spices and Snacks offers a wide range of powders, sweets, and ready-to-eat products, all made from pure ingredients. Discover authentic and organic flavors!"
+    />
+    <meta
+      name="keywords"
+      content="Spices, Snacks, Bisibelebath powder, Vangibath powder, Mysore Pak, Organic sweets, Shree Spices"
+    />
+    <meta name="author" content="Shree Spices and Snacks" />
+    <title>Shree Spices and Snacks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Shree Spices and Snacks
+        <div class="owner-name">By Nalini Dixit</div>
+      </div>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          &#9776;
+          <!-- Hamburger icon -->
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h1>Welcome to Shree Spices and Snacks</h1>
+      <p>Discover authentic flavors made with pure and organic ingredients.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <div class="about-container">
+        <div class="about-slider">
+          <div class="slider">
+            <div class="slides">
+              <img src="slider/slider1.jpg" alt="Pure Spices" />
+              <img src="slider/slider2.jpg" alt="Delicious Snacks" />
+              <img src="slider/slider3.jpg" alt="Organic Ingredients" />
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Shree Spices and Snacks brings you the traditional taste of India
+            with a commitment to purity and quality. Our products are crafted
+            with care to preserve authentic flavors.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+
+      <div class="category">
+        <h3>Powders</h3>
+        <ul>
+          <li>Bisibelebath Powder</li>
+          <li>Vangibath Powder</li>
+          <li>Huli Pudi</li>
+          <li>Rasam Powder</li>
+          <li>Kottu Powder</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>Sweets</h3>
+        <ul>
+          <li>Kai Koadadu</li>
+          <li>Mysore Pak</li>
+          <li>Besan Ladoo</li>
+          <li>Shenga Ladoo</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>Ready-to-Eat</h3>
+        <ul>
+          <li>Menthe Hittu</li>
+          <li>Puliyogare Gojju</li>
+          <li>Chutney Pudi(Shenga,Dal,Hurigadle)</li>
+          <li>Kodbele</li>
+          <li>Avalakki</li>
+          <li>Shankar Pole(Masala,Sweet)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="order">
+      <h2>Order Now</h2>
+      <form id="order-form">
+        <div class="product">
+          <label for="product">Select Product:</label>
+          <select id="product" name="product" required>
+            <option value="">-- Choose a Product --</option>
+            <option value="Bisibelebath Powder">Bisibelebath Powder</option>
+            <option value="Vangibath Powder">Vangibath Powder</option>
+            <option value="Huli Pudi">Huli Pudi</option>
+            <option value="Rasam Powder">Rasam Powder</option>
+            <option value="Kottu Powder">Kottu Powder</option>
+            <option value="Kai Koadadu">Kai Koadadu</option>
+            <option value="Mysore Pak">Mysore Pak</option>
+            <option value="Besan Ladoo">Besan Ladoo</option>
+            <option value="Shenga Ladoo">Shenga Ladoo</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" required />
+        </div>
+        <button type="button" id="send-whatsapp">Send to WhatsApp</button>
+      </form>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Explore our products made with organic ingredients:</p>
+      <div class="images">
+        <img src="images/bisibelebath-powder.jpg" alt="Bisibelebath Powder" />
+        <img src="images/mysore-pak.jpg" alt="Mysore Pak" />
+        <img src="images/shenga-ladoo.jpg" alt="Shenga Ladoo" />
+        <img src="images/ready-to-eat.jpg" alt="Ready to Eat Snacks" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch to learn more about our products:</p>
+      <a href="https://wa.me/6361800647" class="whatsapp-link"
+        >Contact us on WhatsApp</a
+      >
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Shree Spices and Snacks. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
